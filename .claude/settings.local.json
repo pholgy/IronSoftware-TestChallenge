@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet run)",
+      "Bash(csc:*)",
+      "Bash(winget install:*)",
+      "Bash(powershell:*)",
+      "Bash(setx PATH \"%PATH%;%LOCALAPPDATA%\\Microsoft\\dotnet\")",
+      "Bash(\"%LOCALAPPDATA%\\Microsoft\\dotnet\\dotnet.exe\" --version)",
+      "Bash($env:LOCALAPPDATA/Microsoft/dotnet/dotnet.exe --version)",
+      "Bash(del OldPhonePad.cs Program.cs OldPhonePad.csproj dotnet-install.ps1)",
+      "Bash(README.md)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
